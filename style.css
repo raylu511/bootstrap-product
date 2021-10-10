@@ -2,31 +2,64 @@ html{
     font-size:16px;
 }
 
-@media (min-width:375px) {
+@media only screen and (min-width:360px) {
     .newsletter{
         font-size:1.2rem;
     }
     .trial{
-        margin-top:20%;
+       padding-top:30%;
     }
+     .talking-points-headers{
+        text-align:center;
+    }
+    .icon{
+        visibility: hidden;
+    }
+    
 }
-@media (min-width:500px){
+@media only screen and (min-width:500px){
     .trial{
-        margin-top:15%;
+        padding-top:15%;
     }
     .newsletter{
         font-size:2rem;
     }
+    .talking-points-headers{
+        text-align:center;
+    }
+    .icon{
+        visibility: hidden;
+    }
 }
-@media (min-width:800px){
+
+@media only screen and (min-width:600px){
     .trial{
-        margin-top:10%;
+        padding-top:10%;
     }
     
 }
-@media (min-width:1400px){
+@media only screen and (min-width:765px){
+    .talking-points-headers{
+        text-align:left;
+    }
+    .ttp-row{
+        padding-bottom:4%;
+    }
+   
+}
+@media only screen and (min-width:992px){
+     .icon{
+        visibility: visible;
+        
+    }
+    .icon-container{
+        padding-right:10%;
+    }
+}
+
+@media only screen and (min-width:1400px){
     .trial{
-        margin-top:5%;
+        padding-top:5%;
     }
 }
 
