@@ -2,8 +2,35 @@ html{
     font-size:16px;
 }
 
-@media only screen and (max-width:376px){
+@media (min-width:375px) {
     .newsletter{
         font-size:1.2rem;
     }
+    .trial{
+        margin-top:20%;
+    }
 }
+@media (min-width:500px){
+    .trial{
+        margin-top:15%;
+    }
+    .newsletter{
+        font-size:2rem;
+    }
+}
+@media (min-width:800px){
+    .trial{
+        margin-top:10%;
+    }
+    
+}
+@media (min-width:1400px){
+    .trial{
+        margin-top:5%;
+    }
+}
+
+
+
+
+
