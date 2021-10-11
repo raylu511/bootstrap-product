@@ -2,6 +2,7 @@ html{
     font-size:16px;
 }
 
+
 @media only screen and (min-width:360px) {
     .newsletter{
         font-size:1.2rem;
@@ -15,6 +16,9 @@ html{
     .icon{
         visibility: hidden;
     }
+    abbr{
+    font-variant: none;
+}
     
 }
 @media only screen and (min-width:500px){
