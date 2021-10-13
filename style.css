@@ -67,7 +67,9 @@ html{
     }
 }
 
-
+ul{
+    list-style-position: inside;
+}
 
 
 
